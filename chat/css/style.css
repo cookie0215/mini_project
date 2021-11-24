@@ -87,7 +87,7 @@ article h1 {
 .myTalkBox input[type="text"].on {
     outline: 2px solid cornflowerblue;
 }
-.myTalkBox .chatBtn {
+.myTalkBox #chatBtn {
     width: 20%;
     margin-left: 10px;
     padding: 14px 10px;
@@ -98,6 +98,6 @@ article h1 {
     font: bold 1.4rem/1 "arial";
     color: #fff;
 }
-.myTalkBox .chatBtn:hover {
+.myTalkBox #chatBtn:hover {
     background: rgb(68, 113, 197);
 }
