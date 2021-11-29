@@ -7,13 +7,14 @@
     <title>chatBot</title>
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <section>
         <article>
             <h1>챗봇 만들기</h1>
             <div class="dogTalkBox">
-                <p id="dogTalk">멍멍</p>
+                <p id="app" class="dogTalk">멍멍</p>
             </div>
     
             <div class="dogImg">
@@ -21,7 +22,7 @@
             </div>
     
             <div class="myTalkBox">
-                <input id="myTalk" type="text" placeholder="멍이에게 말을 걸어보세요." />
+                <input class="myTalk" type="text" placeholder="멍이에게 말을 걸어보세요." />
                 <button id="chatBtn">전달</button>
             </div>
         </article>
